@@ -122,6 +122,7 @@ button:hover{
 	position: absolute;
 	top: 55%;
 	color: white;
+	margin :10px;
 }
 
 
@@ -134,4 +135,6 @@ input{
 	margin: 5px;
 	background-color: white;
 }
+
+
 
