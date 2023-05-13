@@ -69,7 +69,7 @@ label{
 .insuhu{
 	padding: 10px;
 	font-size: 19px;
-	border-radius: 10px;
+	border-radius: 17px;
 	border : 2px solid white;
 	outline: none;
 	margin: 5px;
@@ -225,7 +225,7 @@ input{
 @media (max-width: 500px) {
 
 	.number1{
-		bottom: 400px;
+		bottom: 350px;
 	}
 	.number2{
 		right: 35px;
