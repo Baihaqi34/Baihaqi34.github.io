@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Pythagoras</title>
+</head>
+<body>
+	<div class="container">
+		<div class="judul-pytha">
+			<h1>PYTHAGORAS</h1>
+		</div>
+
+		
+		<div class="segitiga">
+		</div>
+
+		<input type="number" class ="number1" id="bawah" placeholder="alas">
+		<input type="number" class ="number2" id="miring" placeholder="miring">
+		<input type="number" class ="number3" id="kiri" placeholder="tinggi">
+		<button class="btn-tentukan" onclick="tentukan()">Tentukan</button>
+		<p id="hasil"></p>
+	</div>
+
+
+<script>
+	function tentukan () {
+		let bawah = document.getElementById("bawah").value;
+		let miring = document.getElementById("miring").value;
+		let kiri = document.getElementById("kiri").value;
+		let hasil = document.getElementById("hasil");
+
+
+		if (miring && bawah > 0 ) {
+			
+
+			hasil.innerHTML = "Tingginya adalah "+ Math.sqrt(miring**2 - bawah**2);
+
+		}else if (miring && kiri > 0) {
+			console.log(Math.sqrt(miring**2 - kiri**2));
+
+			hasil.innerHTML = "Alasnya adalah "+ Math.sqrt(miring**2 - kiri**2);	
+		}else {
+			console.log(Math.sqrt(parseInt(kiri**2) + parseInt(bawah**2)));
+
+			hasil.innerHTML = "Hipotenusa nya adalah " + Math.sqrt(parseInt(kiri**2) + parseInt(bawah**2));
+		}
+
+	}
+</script>
+</body>
+</html>
