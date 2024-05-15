@@ -1,4 +1,4 @@
-*Solve Math *
+##Solve Math
 ================
 
 ### Step 1: Install dependencies
