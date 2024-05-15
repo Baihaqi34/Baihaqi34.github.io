@@ -1,7 +1,7 @@
 Solve Math
 ================
 
-### Step 1: Install dependencies
+*website ini dibuat untuk memudahkan pengguna nya dalam menyelesesaikan masalah matematika
 
 
 * Website: [baihaqi34.github.io](https://baihaqi34.github.io)
