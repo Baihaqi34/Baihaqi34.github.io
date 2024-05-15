@@ -4,6 +4,6 @@ Solve Math
 ### Step 1: Install dependencies
 
 
-* Website: [https://baihaqi34.github.io](link demo)
+* Website: [baihaqi34.github.io](https://baihaqi34.github.io)
 *  GitHub: [github.com/username](https://github.com/username)
 
