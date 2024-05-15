@@ -1,6 +1,9 @@
+**Solve Math **
+================
 
-###Konversi Suhu
-website ini dibuat untuk memudahkan pengguna nya dalam menyelesesaikan masalah matematika
+### Step 1: Install dependencies
 
-Link website :
-[link text]baihaqi34.github.io
+
+
+* Website: [email@example.com](baihaqi34.github.io)
+* GitHub: [github.com/username](https://github.com/username)
